@@ -14,6 +14,7 @@ namespace FizzBuzzProgram
             string num = Console.ReadLine();
             string[] str = new string[T];
             str = num.Split(' '); //you have to use split and trim method to format string. then only it can be pass to array.
+            
             int[] N = new int[T];
             for (int i = 0; i < T; i++)
             {
